@@ -1,0 +1,3 @@
+exercises:
+    '1_Eat Vegetables': { max_points: 0, disabled: true, translations: { en: '1_Eat Vegetables' } }
+    '2_Space excursions': { max_points: 0, disabled: true, translations: { en: '2_Space excursions' } }

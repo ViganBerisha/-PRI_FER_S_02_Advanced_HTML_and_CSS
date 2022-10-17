@@ -1,0 +1,3 @@
+exercises:
+    '1_Flexbox Zombies': { max_points: 0, disabled: true, translations: { en: '1_Flexbox Zombies' } }
+    '2_Craze Features': { max_points: 20, disabled: false, translations: { en: '2_Craze Features' } }

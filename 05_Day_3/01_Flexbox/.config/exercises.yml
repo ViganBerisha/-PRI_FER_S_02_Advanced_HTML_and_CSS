@@ -1,0 +1,7 @@
+exercises:
+    '1_Box with user': { max_points: 0, disabled: true, translations: { en: '1_Box with user' } }
+    '2_Holy Grail': { max_points: 0, disabled: true, translations: { en: '2_Holy Grail' } }
+    '3_Flexbox Froggy': { max_points: 0, disabled: true, translations: { en: '3_Flexbox Froggy' } }
+    4_Navigation: { max_points: 0, disabled: true, translations: { en: 4_Navigation } }
+    '5_Project boxes': { max_points: 0, disabled: true, translations: { en: '5_Project boxes' } }
+    '6_Fiery circles': { max_points: 0, disabled: true, translations: { en: '6_Fiery circles' } }
