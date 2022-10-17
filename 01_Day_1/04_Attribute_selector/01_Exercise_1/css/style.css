@@ -33,3 +33,18 @@
 }
 
 /* write your styles here */
+*[target="_blank"]{
+   color: red
+}
+
+img{
+  border: 5px solid red;
+}
+
+img[alt]{
+  border: 0;
+}
+
+div[class*='red']{
+  background-color: red;
+}

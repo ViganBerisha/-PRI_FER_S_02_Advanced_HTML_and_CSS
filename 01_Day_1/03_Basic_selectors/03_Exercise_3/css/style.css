@@ -1,6 +1,7 @@
 .text {
   color: yellow;
-  background: blue;
+  background: #333;
+  color: white;
 }
 
 p {
@@ -11,3 +12,4 @@ p {
   font-family: sans-serif;
   line-height: 1.5em;
 }
+

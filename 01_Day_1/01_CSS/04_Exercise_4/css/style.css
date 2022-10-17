@@ -7,6 +7,9 @@ body {
   display: flex;
 }
 
+.container .page-title {
+  color:  #FC0031;
+}
 h1, h2, h3 {
   color: #444;
 }
@@ -38,5 +41,10 @@ h1, h2, h3 {
   text-decoration: none;
   display: inline-block;
   border-radius: 100px;
+  color: white;
+}
+
+
+.page-text .btn {
   color: white;
 }

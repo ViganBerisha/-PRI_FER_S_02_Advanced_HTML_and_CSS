@@ -1,1 +1,18 @@
+:root {
+    --gradient :  linear-gradient(hsl(0, 100%, 50%),hsl(231, 99%, 50%));
+    --backgroundChild : rgb(0,255,0)
+}
 
+
+.parent {
+    width: 500px;
+    height: 100px;
+    background-image: var(--gradient)
+}
+
+
+.child {
+    width: 50%;
+    height: 50vh;
+    background-color: var(--backgroundChild);
+}

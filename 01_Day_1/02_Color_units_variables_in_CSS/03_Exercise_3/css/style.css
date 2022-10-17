@@ -1,0 +1,32 @@
+:root {
+    font-size: 10px;
+    --colorElement1 : red;
+    --colorElement2 : blue;
+    --colorElement3 : green;
+}
+
+
+body {
+    font-size: 10px;
+}
+
+.element1 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: var(--colorElement1);
+}
+
+.element2 {
+    background-color:  var(--colorElement2);
+    height : 15em;
+    width: 15em;
+    margin : 1em;
+}
+
+.element3 {
+    background-color: var(--colorElement3);
+    width: 15rem;
+    height: 15rem ;
+    margin: 1rem;
+}

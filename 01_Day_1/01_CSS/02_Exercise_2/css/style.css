@@ -28,15 +28,15 @@ body {
 /*
  * Modify these selectors to make them work
  */
-.more-info {
+.row .col-1 .more-info {
   text-transform: capitalize;
   color: green;
-  background: transparent;
+  background: transparent ;
 }
 
-.btn {
-  border: 1px solid #cacaca;
+.row .btn {
+  border: 1px solid #cacaca ;
   padding: 5px;
-  background: #03a6ff;
-  color: black;
+  background: #03a6ff ; 
+  color: black ;
 }
