@@ -4,11 +4,11 @@
 
 body {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
 }
 
 .cnt {
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
 }
 
 .cnt div {
@@ -36,9 +36,138 @@ div * {
   background: gold;
 }
 
-div:first-child > strong:first-child {
+div:nth-of-type(1) > strong:first-child {
   background-color: white;
 }
+div:nth-of-type(2) > strong:first-child {
+  background-color: white;
+}
+
+div:nth-of-type(1) > span:nth-child(2) {
+  background-color: white;
+}
+
+div:nth-of-type(1) > span:nth-child(9) {
+  background-color : white;
+}
+
+/* div:nth-last-of-type(2) > strong:nth-child(2){
+  background-color: white;
+} */
+
+div:nth-of-type(1) > strong:last-child {
+  background-color: white;
+}
+
+div:nth-of-type(2) > strong:last-child{
+  background-color: white
+}
+
+div:nth-of-type(3) > span:nth-child(2){
+  background-color: black;
+}
+
+div:nth-of-type(3) > span:nth-child(3){
+  background-color: black;
+}
+div:nth-of-type(3) > span:nth-child(4){
+  background-color: black;
+}
+
+div:nth-of-type(3) > span:nth-child(7){
+  background-color: black;
+}
+
+div:nth-of-type(3) > span:nth-child(8){
+  background-color: black;
+}
+div:nth-of-type(3) > span:nth-child(9){
+  background-color: black;
+}
+
+div:nth-of-type(4) > span:nth-child(2){
+  background-color: black;
+}
+div:nth-of-type(4) > span:nth-child(4){
+  background-color: black;
+}
+div:nth-of-type(4) >  span:nth-child(7){
+  background-color: black;
+}
+div:nth-of-type(4) > span:nth-child(9){
+  background-color: black;
+}
+
+div:nth-of-type(6) > span:nth-child(2){
+  background-color: black;
+}
+div:nth-of-type(6) > span:nth-child(3){
+  background-color: white;
+}
+div:nth-of-type(6) > strong:nth-child(1n + 4){
+  background-color: white;
+}
+
+div:nth-of-type(6) > strong:last-child {
+  background-color: gold;
+}
+
+div:nth-of-type(6) > span:nth-child(8){
+  background-color: white;
+}
+div:nth-of-type(6) > span:nth-child(9){
+  background-color: black;
+}
+
+div:nth-of-type(7) > span:nth-child(1n+2){
+  background-color: black;
+}
+div:nth-of-type(8) > span:nth-child(1n+3){
+  background-color: black;
+}
+div:nth-of-type(8) > span:nth-child(9){
+  background-color: gold;
+}
+
+div:nth-of-type(9) > span:nth-child(1n+4){
+  background-color: black;
+}
+
+div:nth-of-type(9) > span:nth-child(8){
+  background-color: gold;
+}
+div:nth-of-type(9) > span:nth-child(9){
+  background-color: gold;
+}
+
+div:nth-of-type(10) > strong:nth-last-of-type(1) {
+  background-color: white;
+}
+
+div:nth-of-type(10) > strong:nth-child(1) {
+  background-color: white;
+}
+div:nth-of-type(9) > strong:nth-child(1) {
+  background-color: white;
+}
+
+div:nth-of-type(9) > strong:nth-child(9) {
+  background-color: white;
+}
+
+div:nth-of-type(10) > span:nth-child(9) {
+  background-color: white;
+}
+
+div:nth-of-type(9) > strong:nth-child(10) {
+  background-color: white;
+}
+
+div:nth-of-type(10) > span:nth-child(2){
+  background-color: white;
+} 
+
+
 
 
 

@@ -39,3 +39,54 @@ body {
   margin-top: 10px;
   margin-bottom: 40px;
 }
+
+.dot {
+  background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.dot--top-left {
+  /* background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; */
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.dot--top-right {
+  /* background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; */
+  display: block;
+  position: absolute;
+  top : -15px;
+  right: -15px;
+}
+
+.dot--bottom-right {
+  /* background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; */
+  display: block;
+  position: absolute;
+  bottom : -15px;
+  right: -15px;
+}
+
+.dot--bottom-left {
+  /* background-color: gold;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; */
+  display: block;
+  position: absolute;
+  bottom : -15px;
+  left: -15px;
+}

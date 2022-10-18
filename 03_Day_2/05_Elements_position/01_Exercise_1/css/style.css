@@ -14,3 +14,24 @@ img {
 }
 
 /* write your styles here */
+.par1 > img {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  height: 200px;
+  float:left;
+  padding: 20px;
+  border-radius: 50%; 
+}
+
+.par2 > img {
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-radius: 50%;
+}

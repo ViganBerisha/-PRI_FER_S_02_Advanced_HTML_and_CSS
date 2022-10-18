@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #F15C5C;
+    
+}
+
+li {
+    margin: 20px;
+    display: inline-block;
+    font-family: "Pacifico";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #333
+}
