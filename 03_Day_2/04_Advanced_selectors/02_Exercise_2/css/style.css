@@ -16,3 +16,12 @@ body {
   color: #fff;
   text-transform: capitalize;
 }
+
+
+td {
+   padding: 20px;
+}
+
+tr:nth-child(2n){
+    background-color: #eee;
+}

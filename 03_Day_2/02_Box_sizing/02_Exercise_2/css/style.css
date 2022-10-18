@@ -5,6 +5,7 @@ body {
 .articles {
   width: 850px;
   margin: 0 auto;
+
 }
 
 .articles-title {
@@ -42,6 +43,8 @@ body {
   height: 300px;
   color: #444;
   font-family: Georgia, serif;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .article-title {

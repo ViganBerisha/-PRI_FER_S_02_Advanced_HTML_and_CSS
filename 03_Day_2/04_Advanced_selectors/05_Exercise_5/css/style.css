@@ -36,6 +36,12 @@ div * {
   background: gold;
 }
 
+div:first-child > strong:first-child {
+  background-color: white;
+}
+
+
+
 
 /*
 -------------------------

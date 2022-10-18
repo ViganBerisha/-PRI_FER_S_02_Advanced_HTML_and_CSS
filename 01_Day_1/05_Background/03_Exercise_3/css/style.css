@@ -28,17 +28,22 @@ body {
 
 .banner h1 {
   font-size: var(--font-size);
+
 }
 
 .banner {
   --height: 400px;
   --font-size: 2rem;
-
   height: var(--height);
   padding-top: calc(var(--height) / 2 - var(--font-size));
   text-align: center;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-
+  background-color: black;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  color: white;
   /*
     Write your styles here
    */

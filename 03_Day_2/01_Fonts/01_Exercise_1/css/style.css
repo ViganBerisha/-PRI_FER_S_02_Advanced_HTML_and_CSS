@@ -1,7 +1,19 @@
 /**
   Write @font-face declarations here!
  */
+ @font-face {
+  font-family: "MyFont";
+  src: local("lato-regular"),
+    url("../fonts/lato-regular-webfont.woff"),
+    url("../fonts/lato-regular-webfont.woff2");
+}
 
+@font-face {
+  font-family: "NewFont";
+  src: local("dmseriftext-regular"),
+   url(../fonts/dmseriftext-regular-webfont.woff),
+   url(../fonts/dmseriftext-regular-webfont.woff2);
+}
 
 :root {
   --h1: 3rem;
@@ -13,9 +25,11 @@ body {
   max-width: var(--container-width);
   width: calc(100% - 30px);
   margin: 0 auto;
+  font-family: "MyFont";
 }
 
 h1, h2 {
+  font-family: "Pacifico";
   color: orangered;
 }
 
@@ -33,6 +47,7 @@ section, header, article {
 }
 
 .section--bottom {
+  font-family: "NewFont";
   background: #eee;
   padding: 1rem 2rem;
   margin-top: 1rem;
