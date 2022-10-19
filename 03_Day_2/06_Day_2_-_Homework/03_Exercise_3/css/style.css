@@ -9,3 +9,20 @@ body {
   background-size: cover;
 }
 
+.btn {
+  border-radius: 35px;
+  border: none;
+  padding: 20px 50px;
+  color: tomato;
+  margin : 10px;
+}
+
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--primary {
+    background-color: tomato;
+    color: white
+}

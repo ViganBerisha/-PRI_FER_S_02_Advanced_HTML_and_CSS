@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    background-color: #E53C3D;
+    color: #492f41;
+    justify-content: space-between;
+}
+header > ul li  {
+    margin-right: 20px;   
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
